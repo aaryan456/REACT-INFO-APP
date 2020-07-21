@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+p{
+    color: cornsilk;
+    
+}
+a{
+    color: lawngreen;
+}
+h1{
+    color: cyan;
+}
+h3{
+    color: cyan;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 200;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    margin-left: 200
+}
